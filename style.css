@@ -1,0 +1,54 @@
+html , body{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    height: 100vh;
+}
+
+.screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #f2f2f2;
+    padding: 10px;
+    height: 8%;
+}
+
+.spirit{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #f2f2f2;
+    border-radius: 100%;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+#score{
+    border-width: 2px !important;
+    border-color: #f1f1f1;
+    border-style:outset;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    color: #1e1e1e;
+}
+
+.reset{
+    border-width: 2px !important;
+    border-color: #f1f1f1;
+    border-style:outset;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    color: #1e1e1e;
+}
+
+.world{
+    height: 92%;
+}
