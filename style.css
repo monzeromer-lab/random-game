@@ -6,7 +6,9 @@ html , body{
     display: flex;
     flex-direction: column;
     background-color: #1e1e1e;
-    height: 100vh;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 .screen{
@@ -50,5 +52,7 @@ html , body{
 }
 
 .world{
+    display: flex;
     height: 92%;
+    margin: 10px;
 }
