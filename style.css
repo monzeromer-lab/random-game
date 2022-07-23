@@ -55,5 +55,6 @@ html , body{
 .world{
     display: flex;
     height: 92%;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
